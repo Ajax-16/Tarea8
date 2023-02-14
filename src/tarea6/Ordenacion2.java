@@ -8,6 +8,18 @@ package tarea6;
  */
 public class Ordenacion2 {
 
+	public int [] ordenaDosNumeros(int num1, int num2){
+
+		if(num1>num2){
+
+			return new int[] {num2, num1};
+
+		}
+
+		return new int [] {num1, num2};
+
+	}
+
 	/**
 	 * Método que ordena un array de números de manera ascendente
 	 * @param array Array de números enteros que se desea ordenar de manera ascendente
